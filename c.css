@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:linear-gradient(45deg, #ffd195, #ffb283)
+}
+
+.card{
+  width: 350px;
+  height: 130px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+h3{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #dadada;
+}
+
+.star{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+iconify-icon{
+  font-size: 40px;
+  color: #dadada;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+iconify-icon.active{
+  color: #ff9c1a;
+
+}
